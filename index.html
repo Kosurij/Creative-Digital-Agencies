@@ -260,11 +260,11 @@
             <div class="top__subtitle top__subtitle--white">C</div>
             <div class="top__anounce top__anounce--white"> We’d love to hear about your project. </div>
         </div>
-        <form action="mail.php" method="post" name="form" class="form">
-            <input type="text" placeholder="Name" name="name" class='form-name' required>
-            <input type="email" placeholder="Email" name="email" class='form-email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-            <input type="tel" placeholder="Phone" name="phone" class='form-phone' pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Message" class='form-message' required></textarea>
+        <form action="PHP/mail.php" method="POST" name="form" class="form">
+            <input type="text" placeholder="Name" name="user_name" class='form-name' required>
+            <input type="email" placeholder="Email" name="user_email" class='form-email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <input type="tel" placeholder="Phone" name="user_phone" class='form-phone' pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
+            <textarea name="user_message" id="" cols="30" rows="10" placeholder="Message" class='form-message' required></textarea>
             <input type='submit' class='form-btn' value='SUBMIT'> </form>
     </div>
 </div>
