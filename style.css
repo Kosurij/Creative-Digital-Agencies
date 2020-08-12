@@ -47,7 +47,7 @@ h6 {
 }
 
 .header__logo {
-    padding: 20px 0 18px;
+    padding: 10px 0 10px;
 }
 
 .header__inner {
@@ -86,7 +86,7 @@ h6 {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    padding: 40px 0 45px;
+    padding: 30px 0 40px;
 }
 
 .nav__link:last-child {
